@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Principal">
+  <grid id="27dc6" binding="painelPrincipal" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="62" y="20" width="1035" height="524"/>
+    </constraints>
+    <properties>
+      <background color="-3158317"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b0649" binding="jpTop" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e2f9e" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="b50c2" class="javax.swing.JMenu" binding="jmRelatorios" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <icon value="IconsGym/analytics_117968.png"/>
+                  <text value="Relatórios"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="2aa53" class="javax.swing.JMenu" binding="jmVendas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <icon value="IconsGym/offer_discount_sales_economy_icon_227983.png"/>
+                  <text value="Vendas"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="2fc3e" class="javax.swing.JMenu" binding="jmSair" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <icon value="IconsGym/user_account_off_door_arrow_leave_ui_exit_logout_icon_210826.png"/>
+                  <text value="Sair"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="c9145" class="javax.swing.JMenu" binding="jmProdutos" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <icon value="IconsGym/products_new_product_cube_design_icon_153074.png"/>
+                  <text value="Produtos"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="ec111" class="javax.swing.JMenu" binding="jmEquipamentos" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <icon value="IconsGym/gym_exercise_dumbbell_muscles_fitness_workout_icon_262726 (2).png"/>
+                  <text value="Equipamentos"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="79ae5" class="javax.swing.JMenu" binding="jmFuncionarios" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <icon value="IconsGym/employee_person_business_teamwork_businessman_icon_175935 (1).png"/>
+                  <text value="Funcionários"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="fce0" class="javax.swing.JMenuItem" binding="jiRecepcionistas">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="1ddac" class="javax.swing.JMenu" binding="jmCadastro" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12167812"/>
+                  <font size="16"/>
+                  <icon value="IconsGym/finance_man_client_user_male_avatar_employee_businessman_business_icon_258634 (1).png"/>
+                  <text value="Cadastro"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="335b" class="javax.swing.JMenuItem" binding="jiClientes">
+                    <constraints/>
+                    <properties>
+                      <text value="Clientes"/>
+                    </properties>
+                  </component>
+                  <component id="31ed7" class="javax.swing.JMenuItem" binding="jiProdutos">
+                    <constraints/>
+                    <properties>
+                      <text value="Produtos"/>
+                    </properties>
+                  </component>
+                  <component id="cb931" class="javax.swing.JMenuItem" binding="jiFuncionarios">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="ac23f">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
