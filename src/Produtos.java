@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Produtos {
+public class Produtos extends JFrame{
     private JTextField textField1;
     private JTextField textField2;
     private JTextField textField3;
@@ -9,4 +9,14 @@ public class Produtos {
     private JLabel txtCodProd;
     private JLabel txtPrecoProd;
     private JButton bSalvarProd;
+    private JPanel pProdutos;
+
+    public Produtos(){
+       setSize(500,500);
+       setContentPane(pProdutos);
+       setLocationRelativeTo(null);
+       setVisible(true);
+   }
+
+
 }

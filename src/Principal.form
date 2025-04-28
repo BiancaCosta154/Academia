@@ -132,7 +132,9 @@
                   </component>
                   <component id="cb931" class="javax.swing.JMenuItem" binding="jiFuncionarios">
                     <constraints/>
-                    <properties/>
+                    <properties>
+                      <text value="Funcionários"/>
+                    </properties>
                   </component>
                 </children>
               </grid>

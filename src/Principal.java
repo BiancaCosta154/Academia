@@ -27,6 +27,29 @@ public class Principal extends JFrame{
         setVisible(true); // aparece o frame
 
 
-    }
+
+        jiClientes.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Clientes clientes = new Clientes();
+                clientes.setVisible(true);
+            }
+        });
+
+        jiProdutos.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Produtos produtos = new Produtos();
+                produtos.setVisible(true);
+            }
+        });
+
+    };
+
+
+
+
+
+
 }
 

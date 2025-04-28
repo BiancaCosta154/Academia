@@ -20,7 +20,8 @@ public class Clientes extends JFrame{
 
     public Clientes() {
        setSize(1200,400);
-       setContentPane(new Clientes().pClientes);
+       setContentPane(pClientes);
+       setLocationRelativeTo(null);
        setDefaultCloseOperation(EXIT_ON_CLOSE);
        setVisible(true);
        desabilita();

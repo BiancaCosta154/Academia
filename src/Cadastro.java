@@ -9,7 +9,7 @@ public class Cadastro extends JFrame{
     private JLabel txtSenha;
     private JLabel txtLogin;
     private JPasswordField jpSenha;
-    private JTextField textField1;
+    private JTextField txtFNome;
     private JComboBox comboBox1;
     private JButton jbLogar;
     private JButton jbSair;
@@ -27,8 +27,8 @@ public class Cadastro extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if (textField1.getText().equals("jose") && new String(jpSenha.getPassword()).equals("1234")) {
-                    JOptionPane.showMessageDialog(null, "Login: " + txtLogin.getText() +
+                if (txtFNome.getText().equals("jose") && new String(jpSenha.getPassword()).equals("1234")) {
+                    JOptionPane.showMessageDialog(null, "Login: " + txtFNome.getText() +
                             "\n Perfil: " + comboBox1.getSelectedItem());
                     new Principal(); //construtor
 
