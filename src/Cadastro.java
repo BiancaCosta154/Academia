@@ -13,6 +13,7 @@ public class Cadastro extends JFrame{
     private JComboBox comboBox1;
     private JButton jbLogar;
     private JButton jbSair;
+    private JPanel pImagem;
 
     public Cadastro() {
 
@@ -27,13 +28,13 @@ public class Cadastro extends JFrame{
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                if (txtFNome.getText().equals("jose") && new String(jpSenha.getPassword()).equals("1234")) {
+                if (txtFNome.getText().equals("j") && new String(jpSenha.getPassword()).equals("1")) {
                     JOptionPane.showMessageDialog(null, "Login: " + txtFNome.getText() +
                             "\n Perfil: " + comboBox1.getSelectedItem());
                     new Principal(); //construtor
 
                 } else {
-                    JOptionPane.showMessageDialog(null, "Login inválido:");
+                    JOptionPane.showMessageDialog(null, "Login inválido");
                     txtLogin.requestFocus();
                     txtLogin.setText("");
                     jpSenha.setText("");
