@@ -22,10 +22,9 @@ public class Clientes extends JFrame{
     private JLabel labelTelefone;
 
     public Clientes() {
-       setSize(600,500);
+       setSize(600,300);
        setContentPane(pClientes);
        setLocationRelativeTo(null);
-       setDefaultCloseOperation(EXIT_ON_CLOSE);
        setVisible(true);
        desabilita();
 

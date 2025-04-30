@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Principal">
-  <grid id="27dc6" binding="painelPrincipal" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+  <grid id="27dc6" binding="painelPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
-      <xy x="62" y="20" width="1035" height="524"/>
+      <xy x="62" y="20" width="1259" height="694"/>
     </constraints>
     <properties>
-      <background color="-3158317"/>
+      <background color="-4553847"/>
+      <font size="16"/>
+      <foreground color="-6527894"/>
     </properties>
     <border type="none"/>
     <children>
       <grid id="b0649" binding="jpTop" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-11655883"/>
+        </properties>
         <border type="none"/>
         <children>
           <grid id="e2f9e" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -32,7 +33,7 @@
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
-                  <icon value="IconsGym/analytics_117968.png"/>
+                  <icon value="icon/analytics_analysis_data_business_charts_document_report_icon_188773.png"/>
                   <text value="Relatórios"/>
                 </properties>
                 <border type="none"/>
@@ -44,7 +45,7 @@
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
-                  <icon value="IconsGym/offer_discount_sales_economy_icon_227983.png"/>
+                  <icon value="icon/money_banknotes_bills_icon_188778.png"/>
                   <text value="Vendas"/>
                 </properties>
                 <border type="none"/>
@@ -56,7 +57,7 @@
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
-                  <icon value="IconsGym/user_account_off_door_arrow_leave_ui_exit_logout_icon_210826.png"/>
+                  <icon value="icon/exit_door_cinema_icon_190882 (1).png"/>
                   <text value="Sair"/>
                 </properties>
                 <border type="none"/>
@@ -68,7 +69,7 @@
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
-                  <icon value="IconsGym/products_new_product_cube_design_icon_153074.png"/>
+                  <icon value="icon/price_tag_discount_deal_icon_225166.png"/>
                   <text value="Produtos"/>
                 </properties>
                 <border type="none"/>
@@ -80,7 +81,7 @@
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
-                  <icon value="IconsGym/gym_exercise_dumbbell_muscles_fitness_workout_icon_262726 (2).png"/>
+                  <icon value="icon/clipboard_paper_file_correct_done_list_document_icon_219488.png"/>
                   <text value="Equipamentos"/>
                 </properties>
                 <border type="none"/>
@@ -93,7 +94,7 @@
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
-                  <icon value="IconsGym/employee_person_business_teamwork_businessman_icon_175935 (1).png"/>
+                  <icon value="icon/delivery_courier_man_people_avatar_shipping_icon_225164.png"/>
                   <text value="Funcionários"/>
                 </properties>
                 <border type="none"/>
@@ -108,12 +109,12 @@
               </grid>
               <grid id="1ddac" class="javax.swing.JMenu" binding="jmCadastro" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
                   <font size="16"/>
-                  <icon value="IconsGym/finance_man_client_user_male_avatar_employee_businessman_business_icon_258634 (1).png"/>
+                  <icon value="icon/team_people_man_woman_group_icon_193939.png"/>
                   <text value="Cadastro"/>
                 </properties>
                 <border type="none"/>
@@ -142,11 +143,6 @@
           </grid>
         </children>
       </grid>
-      <vspacer id="ac23f">
-        <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
     </children>
   </grid>
 </form>

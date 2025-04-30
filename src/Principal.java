@@ -20,7 +20,7 @@ public class Principal extends JFrame{
 
     //
     public Principal() {
-        setSize(1200,600);
+        setSize(1265,700);
         setContentPane(painelPrincipal); // content pane coloca os elemenos no jframe
         setDefaultCloseOperation(EXIT_ON_CLOSE); //maneira de fechar o programa
         setLocationRelativeTo(null); //abre a tela no centro
@@ -43,7 +43,13 @@ public class Principal extends JFrame{
                 produtos.setVisible(true);
             }
         });
-
+        jiFuncionarios.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Funcionarios funcionarios = new Funcionarios();
+                funcionarios.setVisible(true);
+            }
+        });
     };
 
 

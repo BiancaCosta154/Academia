@@ -12,7 +12,7 @@ public class Produtos extends JFrame{
     private JPanel pProdutos;
 
     public Produtos(){
-       setSize(500,500);
+       setSize(400,300);
        setContentPane(pProdutos);
        setLocationRelativeTo(null);
        setVisible(true);

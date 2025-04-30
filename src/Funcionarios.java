@@ -10,14 +10,13 @@ public class Funcionarios extends JFrame {
     private JLabel txtDiasFunc;
     private JTextField horáriosTextField;
     private JLabel txtHorariosFunc;
-    private JButton button1;
+    private JButton bSalvarFunc;
     public JPanel JPFuncionarios;
 
 
     public Funcionarios() {
-        setSize(1200,600);
+        setSize(400,300);
         setContentPane(JPFuncionarios); // content pane coloca os elemenos no jframe
-        setDefaultCloseOperation(EXIT_ON_CLOSE); //maneira de fechar o programa
         setLocationRelativeTo(null); //abre a tela no centro
         setVisible(true); // aparece o frame
     }
