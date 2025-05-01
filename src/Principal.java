@@ -16,6 +16,7 @@ public class Principal extends JFrame{
     private JMenuItem jiProdutos;
     private JMenuItem jiRecepcionistas;
     private JMenuItem jiFuncionarios;
+    private JMenuItem jmiSair;
 
 
     //
@@ -48,6 +49,14 @@ public class Principal extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 Funcionarios funcionarios = new Funcionarios();
                 funcionarios.setVisible(true);
+            }
+        });
+
+        ;
+        jmiSair.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
             }
         });
     };
