@@ -16,8 +16,8 @@ public class Funcionarios extends JFrame {
 
     public Funcionarios() {
         setSize(400,300);
-        setContentPane(JPFuncionarios); // content pane coloca os elemenos no jframe
-        setLocationRelativeTo(null); //abre a tela no centro
-        setVisible(true); // aparece o frame
+        setContentPane(JPFuncionarios);
+        setLocationRelativeTo(null);
+        setVisible(true);
     }
 }

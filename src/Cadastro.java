@@ -30,12 +30,11 @@ public class Cadastro extends JFrame{
                 if (txtFNome.getText().equals("j") && new String(jpSenha.getPassword()).equals("1")) {
                     JOptionPane.showMessageDialog(null, "Login: " + txtFNome.getText() +
                             "\nPerfil: " + comboBox1.getSelectedItem());
-                    new Principal(); //construtor
-
+                    new Principal();
                 } else {
                     JOptionPane.showMessageDialog(null, "Login inválido");
-                    txtLogin.requestFocus();
-                    txtLogin.setText("");
+                    txtFNome.requestFocus();
+                    txtFNome.setText("");
                     jpSenha.setText("");
                 }
             }

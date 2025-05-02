@@ -15,11 +15,11 @@
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints border-constraint="North"/>
         <properties>
-          <background color="-11655883"/>
+          <background color="-5916744"/>
         </properties>
         <border type="none"/>
         <children>
-          <grid id="e2f9e" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="e2f9e" class="javax.swing.JMenuBar" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
@@ -29,7 +29,7 @@
             <children>
               <grid id="b50c2" class="javax.swing.JMenu" binding="jmRelatorios" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
                 <constraints>
-                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
@@ -37,11 +37,24 @@
                   <text value="Relatórios"/>
                 </properties>
                 <border type="none"/>
-                <children/>
+                <children>
+                  <component id="cb662" class="javax.swing.JMenuItem" binding="jiVendasR">
+                    <constraints/>
+                    <properties>
+                      <text value="Vendas"/>
+                    </properties>
+                  </component>
+                  <component id="e4da4" class="javax.swing.JMenuItem" binding="jiProdutosR">
+                    <constraints/>
+                    <properties>
+                      <text value="Produtos"/>
+                    </properties>
+                  </component>
+                </children>
               </grid>
               <grid id="2aa53" class="javax.swing.JMenu" binding="jmVendas" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
                 <constraints>
-                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
@@ -49,11 +62,24 @@
                   <text value="Vendas"/>
                 </properties>
                 <border type="none"/>
-                <children/>
+                <children>
+                  <component id="d437c" class="javax.swing.JMenuItem" binding="jiProdutosProntos">
+                    <constraints/>
+                    <properties>
+                      <text value="Produtos prontos"/>
+                    </properties>
+                  </component>
+                  <component id="297bf" class="javax.swing.JMenuItem" binding="jiServicos">
+                    <constraints/>
+                    <properties>
+                      <text value="Serviços"/>
+                    </properties>
+                  </component>
+                </children>
               </grid>
               <grid id="2fc3e" class="javax.swing.JMenu" binding="jmSair" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
                 <constraints>
-                  <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
@@ -72,7 +98,7 @@
               </grid>
               <grid id="c9145" class="javax.swing.JMenu" binding="jmProdutos" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
                 <constraints>
-                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
@@ -80,11 +106,24 @@
                   <text value="Produtos"/>
                 </properties>
                 <border type="none"/>
-                <children/>
+                <children>
+                  <component id="a91eb" class="javax.swing.JMenuItem" binding="jitemComputadores">
+                    <constraints/>
+                    <properties>
+                      <text value="Computadores e acessórios"/>
+                    </properties>
+                  </component>
+                  <component id="afce4" class="javax.swing.JMenuItem" binding="jitemComponentesHard">
+                    <constraints/>
+                    <properties>
+                      <text value="Componentes de hardware"/>
+                    </properties>
+                  </component>
+                </children>
               </grid>
               <grid id="ec111" class="javax.swing.JMenu" binding="jmEquipamentos" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
                 <constraints>
-                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <background color="-12167812"/>
@@ -92,25 +131,18 @@
                   <text value="Equipamentos"/>
                 </properties>
                 <border type="none"/>
-                <children/>
-              </grid>
-              <grid id="79ae5" class="javax.swing.JMenu" binding="jmFuncionarios" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-                <margin top="0" left="0" bottom="0" right="0"/>
-                <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <background color="-12167812"/>
-                  <icon value="icon/delivery_courier_man_people_avatar_shipping_icon_225164.png"/>
-                  <text value="Funcionários"/>
-                </properties>
-                <border type="none"/>
                 <children>
-                  <component id="fce0" class="javax.swing.JMenuItem" binding="jiRecepcionistas">
-                    <constraints>
-                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                    </constraints>
-                    <properties/>
+                  <component id="cd858" class="javax.swing.JMenuItem" binding="jitemManutencao">
+                    <constraints/>
+                    <properties>
+                      <text value="Manutenção técnica"/>
+                    </properties>
+                  </component>
+                  <component id="e7c2a" class="javax.swing.JMenuItem" binding="jitemOperacionaisAtend">
+                    <constraints/>
+                    <properties>
+                      <text value="Operacionais e de atendimento"/>
+                    </properties>
                   </component>
                 </children>
               </grid>

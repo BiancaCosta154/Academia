@@ -13,8 +13,9 @@
     <children>
       <component id="d3bfb" class="javax.swing.JTextField" binding="tfNome">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
+            <maximum-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
@@ -23,65 +24,88 @@
       </component>
       <component id="49dfc" class="javax.swing.JButton" binding="jbNovo">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="-1"/>
+          </grid>
         </constraints>
         <properties>
+          <background color="-1286"/>
+          <foreground color="-16777216"/>
           <horizontalAlignment value="0"/>
           <text value="Novo"/>
         </properties>
       </component>
       <component id="d4154" class="javax.swing.JButton" binding="jbEditar">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="-1"/>
+          </grid>
         </constraints>
         <properties>
+          <background color="-1286"/>
+          <foreground color="-16777216"/>
           <text value="Editar"/>
         </properties>
       </component>
       <component id="49f18" class="javax.swing.JButton" binding="jbDeletar">
         <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="-1"/>
+          </grid>
         </constraints>
         <properties>
+          <background color="-1286"/>
+          <foreground color="-16777216"/>
           <text value="Deletar"/>
         </properties>
       </component>
       <component id="ccc11" class="javax.swing.JButton" binding="jbSalvar">
         <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="-1"/>
+          </grid>
         </constraints>
         <properties>
+          <background color="-1286"/>
+          <foreground color="-16777216"/>
           <text value="Salvar"/>
         </properties>
       </component>
       <component id="ad665" class="javax.swing.JButton" binding="jbSair">
         <constraints>
-          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="80" height="-1"/>
+          </grid>
         </constraints>
         <properties>
+          <background color="-1286"/>
+          <foreground color="-16777216"/>
           <text value="Sair"/>
         </properties>
       </component>
       <component id="d964e" class="javax.swing.JTextField" binding="tfCpf">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
+            <maximum-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties/>
       </component>
       <component id="865" class="javax.swing.JTextField" binding="tfEmail">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
+            <maximum-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties/>
       </component>
       <component id="c7f3a" class="javax.swing.JTextField" binding="tfTelefone">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
+            <maximum-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties/>
@@ -130,13 +154,13 @@
       </component>
       <component id="c4f8" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <enabled value="true"/>
-          <font name="Bahnschrift" size="22"/>
+          <font name="Arial" size="18"/>
           <foreground color="-16777216"/>
-          <text value="Clientes:"/>
+          <text value="Clientes"/>
         </properties>
       </component>
     </children>
